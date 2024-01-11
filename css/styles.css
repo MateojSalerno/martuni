@@ -22,8 +22,11 @@
     width: 100%;
 }
 
-@media (max-width:500px) {
+@media (max-width:480px) {
 
+    .logo{
+        width: 100px;
+    }
 .contenedorFotos{
     display: block;
 }
@@ -34,9 +37,6 @@
     margin-bottom: 10px;
 }
 
-.logo{
-    width: 100px;
-}
 
 .tituloIndex{
     text-align: center;
