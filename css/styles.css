@@ -24,9 +24,10 @@
 
 @media (max-width:480px) {
 
-    .logo{
-        width: 10px;
-    }
+.logo{
+    width: 100px;
+}
+    
 .contenedorFotos{
     display: block;
 }
