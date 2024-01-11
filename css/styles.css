@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lemon&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorFotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.fotos{
+    width: 100px;
+}
+
+.fotoContenido{
+    width: 100%;
+}
+
+@media (max-width:400px) {
+
+.contenedorFotos{
+    display: block;
+}
+
+.fotos{
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.tituloIndex{
+    text-align: center;
+    font-family: "Lemon", serif;
+}
+
+.texto{
+    border: 1px solid black;
+    margin-bottom: 40px;
+    margin-left:20px ;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(194, 52, 52);
+    color: aliceblue;
+    font-family: "Dancing Script", cursive;
+}
+.fotoCosas{
+    width: 100%;
+}
+
+.parrafo{
+    font-family: "Lemon", serif;
+    text-align: center;
+}
+
+.textoPalabras{
+    text-align: center;
+    font-family: "PT Serif", serif;
+font-size: 20px;
+color: rgb(0, 0, 0);
+margin-top: 10px;
+}
+
+
+.palabrasfondo{
+background-color: rgb(255, 255, 255);
+}
+
+.videoCont{
+width: 100%;
+}
+
+
+}
